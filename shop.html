@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Your shopping</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-1">
+      <div class="logo">
+      
+        <a href="index.html">  <i class='bx bxl-shopify  bx-lg' id="icon" ><span id="icon-head">Shopee </span></i>
+          
+        </a>
+      </div>
+      <div class="right-menu">
+        <div class="icons">
+          <ul>
+          <li id="shop-cart">
+            <a href="#"><i id="cart-open" class="fa-solid fa-cart-shopping"></i></a>
+            </a>
+            <div id="cartAmount"  class="cartAmount">0</div>  
+          </li>
+          <li id="signIn"><a href="SignIn.html" > <i class='bx bxs-user'></i><span>Sign In/Login</span></a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="mobile">
+      <a  href="#" >
+        <i id="cart-open" class="fa-solid fa-cart-shopping"></i>
+      </a>
+      <div class="cartAmount">0</div>
+      <i id ="bar" class="fa-solid  fa-outdent"></i> 
+    </div>
+    </div>
+    <div class="header-2">
+    <nav class="nav-bar">
+      <ul class="main-menu">
+        <li><a class=" list list-active" href="index.html">Home</a></li>
+        <li><a class="list" href="shop.html">Shop</a></li>
+        <li><a class="list" href="about.html">About</a></li>
+        <li><a class="list" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  
+  </header>
+  <section class="cart-page" id="cart-page"> 
+<!--   
+    <div class="cart-grp"> -->
+    <div id="label" class="text-center">
+    </div>
+    <div class="shop-cart"  id="shopping-cart" >
+    </div>
+
+
+  </section>
+        
+  <section class="new-banner search-box"> 
+         <div class="wrapper">
+             <div class="searchbox">
+              <input type="search"  id="inputfield"   placeholder="search product name here..">
+              <button class="search">Search</button>
+          </div>
+        </div>
+           
+            <div class="button">
+              <button class="button-value" onclick="filterProduct('all')">All</button>
+              <button class="button-value " onclick="filterProduct('women')" >Women</button>
+              <button class="button-value " onclick="filterProduct('mens')">Mens</button>
+            </div>
+
+
+          </section>
+
+          
+    
+          <section class="new-collection">
+            <div class="pro-container" id="shop">
+            </div>
+          </section>
+
+
+         <section class="newsLetter">
+          <div class="newsText">
+            <h4> Sign up for Newsletters</h4>
+            <p> Get E-mail updates about our lastest shop and <span>special offers</span></p>
+          </div>
+          <div class="newsForm">
+            <input type="text" name="newsText" placeholder="Enter your e-mail ">
+            <button id="signup"  type="submit">Subscribe</button>
+          </div>
+         </section>
+         <footer class="footerSec">
+          <div class="Address">
+             <div class="logo1 span-row">
+               <a href="index.html"><i class='bx bxl-shopify  bx-lg' id="icon" ><span id="icon-head">Shopee </span></i></a> 
+            </div>
+            
+          <div class="col">
+            <h4> Payment Methods</h4>
+            <img class="pay-img"  src="./Assets/pay.png" alt="paybtns">
+          </div>
+          <div class="col">
+            <h4>Return Policy</h4>
+            <a href="#"><img src="./Assets/14day.png" alt="return"><p>Return within 14days of receiving your order</p></a>
+          </div>
+        </div>
+        
+          <div class="copyRight">
+            <p>COPYRIGHT © 2023 SHOPIE KARO</p>
+          </div>
+        
+        </footer>
+    
+        <script src="main.js"></script>
+        </body>
+       
+   
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body >
+
+
+  <header class="header">
+    <div class="header-1">
+      <div class="logo">
+        <a href="index.html">  <i class='bx bxl-shopify  bx-lg' id="icon" ><span id="icon-head">Shopee </span></i></a>
+      </div>
+      <div class="right-menu">
+        <div class="icons">
+          <ul>
+          <li id="signIn"><a href="SignIn.html" > <i class='bx bxs-user'></i><span>Sign in</span></a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="mobile">
+    <a href="SignIn.html"> <i class='bx bxs-user'></i><span>Sign in</span></a>
+      <!-- <i id ="bar" class="fa-solid  fa-outdent"></i>  -->
+    </div>
+    </div>
+   
+  
+  </header>
+
+<section class="signinbody">
+  <div class="container" id="container">
+    <div class="signin-signup">
+      <form action="#" method="post" id="sign-in">
+        <h1>Sign in</h1>
+        <div class="infield">
+          <div class="error"></div>
+            <input type="email" placeholder="Email" name="email" id="email"/>
+            <label></label>
+        </div>
+        <div class="infield">
+          <div class="error"></div>
+            <input type="password" placeholder="Password" name="password" id="password"/>
+            <label></label>
+        </div>
+        <button>Sign In</button>
+        <p class="account-text">Don't have an account?<a href="#" id="sign-up-btn2">Sign up</a></p>
+    </form>
+        <form action="#" method="post" id="sign-up">
+            <h1>Create Account</h1>
+            <div class="infield">
+              <div class="error"></div>
+                <input type="text" placeholder="Name" name="newUser"  id="username-set"/>
+                <label></label>
+            </div>
+            <div class="infield">
+              <div class="error"></div>
+                <input type="email" placeholder="Email" name="newemail"  id="email-set"/>
+                <label></label>           
+            </div>
+            <div class="infield">
+              <div class="error"></div>
+                <input type="password" placeholder="Password" name="newPwd"  id="pwd-set" />
+                <label></label>     
+            </div>
+            <div class="infield">
+              <div class="error"></div>
+                <input type="password" placeholder="Confirm Password" name="CPwd"  id="Cpwd" />
+                <label></label>     
+            </div>
+            <button>Sign Up</button>
+            <p class="account-text">Already have an account?<a href="#" id="sign-in-btn2">Sign in</a></p>
+        </form>
+
+    </div>
+    <div class="overlay-container" id="overlayCon">
+            <div class="overlay-panel overlay-left">   
+              <h1>Welcome Back!</h1>
+              <p>To keep connected with us please login with your personal info</p>
+              <button id="sign-in-btn">Sign In</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+              <h1>Hello, Friend!</h1>
+              <p>If you are a new user,enter your personal details and start journey with us</p>
+              <button id="sign-up-btn">Sign Up</button>
+            </div>
+    </div>
+</div>
+</section>
+       
+        <script src="main.js"></script>
+        </body>
+</html>
