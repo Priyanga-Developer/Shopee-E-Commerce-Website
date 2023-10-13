@@ -140,17 +140,18 @@ ul li a i{
 .mobile{
   position: relative;
 }
-.mobile .cartAmount{
+.mobile .cartAmount {
   position: absolute;
   color: black;
-  top: -21px;
-  right: 52px;
+  top: -9px;
+  right: 111px;
   background-color: red;
   width: 25px;
   height: 22px;
   text-align: center;
   border-radius: 50%;
 }
+
 
 
 
