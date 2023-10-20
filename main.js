@@ -38,15 +38,7 @@ if(container){
 
 
 
-//  if (overlayBtn){
-//   overlayBtn.addEventListener("click",()=>{
-//     container.classList.toggle("right-panel-active");
-//     overlayBtn.classList.remove("btnscaled");
-//     window.requestAnimationFrame(()=>{
-//       overlayBtn.classList.add("btnscaled");
-//     })
-//   })
-//  }
+
 
 // **Sign-up validation**////
 
