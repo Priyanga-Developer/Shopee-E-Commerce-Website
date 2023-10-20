@@ -1437,7 +1437,7 @@ width: 128px;
 }
 .text-center .pop i {
   top: -61px;
-  left: 64px;
+
 }
 
 }
@@ -1520,16 +1520,17 @@ footer {
 
 .text-center .pop i {
   top: -61px;
+  left: 86px;
 
  
 }
 
 }
 
-@media all and (max-width:539px) {
+@media all and (max-width:540px) {
   .text-center .pop i {
     top: -61px;
-    left: 33px;
+    left: 58px;
 }
 }
 
@@ -1709,6 +1710,11 @@ font-size: 21px;
 /* Cart Page */
 .text-center .fa-solid {
   margin-right: 50px;
+}
+
+.text-center .pop i {
+  top: -61px;
+  left: 40px;
 }
 
 }
