@@ -1357,6 +1357,15 @@ width: 128px;
   display: none;
  }
 
+ /* category button */
+ .button{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+ }
+
 /* slogan section */
 
 .slogan-sec {
@@ -1439,6 +1448,8 @@ width: 128px;
   top: -61px;
 
 }
+
+
 
 }
 
