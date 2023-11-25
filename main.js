@@ -622,8 +622,10 @@ if( document.querySelector(".search")){
 }
 
 const selectCategoryBtn=document.querySelectorAll(".button-value");
-selectCategoryBtn[0].classList.add("button-active")
+
+
 selectCategoryBtn.forEach((btn)=>{
+  selectCategoryBtn[0].classList.add("button-active");
     btn.addEventListener("click",(e)=>{
       e.preventDefault();
       setActiveBtn(e);
@@ -654,6 +656,7 @@ selectCategoryBtn.forEach((btn)=>{
 })
 
 let setActiveBtn =(e)=>{
+  
   selectCategoryBtn.forEach((btn)=>{
     btn.classList.remove("button-active");
   })
