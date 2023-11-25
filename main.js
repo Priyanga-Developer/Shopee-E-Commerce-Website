@@ -622,8 +622,7 @@ if( document.querySelector(".search")){
 }
 
 const selectCategoryBtn=document.querySelectorAll(".button-value");
-
-
+selectCategoryBtn[0].classList.add("button-active")
 selectCategoryBtn.forEach((btn)=>{
     btn.addEventListener("click",(e)=>{
       e.preventDefault();
@@ -646,7 +645,7 @@ selectCategoryBtn.forEach((btn)=>{
              }
              else{
               card.classList.add("hide");
-          ;
+          
              }
           } 
          
